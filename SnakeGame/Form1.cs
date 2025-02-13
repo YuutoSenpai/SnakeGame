@@ -196,7 +196,7 @@ namespace SnakeGame
             // Kreslení hada
             foreach (var segment in snake)
             {
-                e.Graphics.FillRectangle(new SolidBrush(Color.Green), segment);
+                e.Graphics.FillRectangle(new SolidBrush(Color.Black), segment);
             }
 
             // Kreslení jídla
